@@ -1,10 +1,19 @@
-"use client";
-export default function Item({name, quantity, category}){
-    return (
-        <section className="border bg-blue-500 bg-white-800 w- max-w-xs m-4 p-5 rounded shadow-lg">
-            <h3 className="text-white text-xl fomt-bold">Name:{name}</h3>
-            <p>Quantity:{quantity}</p>
-            <p>Category:{category}</p>
-        </section>
-    );
-}
+import React from 'react';
+ 
+
+const Item = ({ name, quantity, category }) => {
+  return (
+     
+    <div  className="shadow-xl p-6 mb-6 bg-blue-500 rounded-md  text-white">
+    <li>
+       {name},
+    </li>
+    <li> buy {quantity}, in {category}</li>
+    
+    </div>
+  );
+};
+
+ 
+
+export default Item;
