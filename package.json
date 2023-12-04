@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "encoding": "^0.1.13",
-    "firebase": "^10.6.0",
+    "firebase": "^10.7.0",
     "next": "^14.0.3",
     "react": "latest",
     "react-dom": "latest"
